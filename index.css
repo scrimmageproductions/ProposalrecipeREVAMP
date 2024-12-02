@@ -1,102 +1,193 @@
 
-
-```css
-@font-face {
-  font-family: __Rubik_5c20f6;
-  font-style: normal;
-  font-weight: 300 900;
-  font-display: swap;
-  src: url("/_next/static/media/356abdd51b933898-s.woff2") format("woff2");
-  unicode-range: u+06??, u+0750-077f, u+0870-088e, u+0890-0891, u+0898-08e1, u+08e3-08ff, u+200c-200e, u+2010-2011, u+204f, u+2e41, u+fb50-fdff, u+fe70-fe74, u+fe76-fefc, u+102e0-102fb, u+10e60-10e7e, u+10efd-10eff, u+1ee00-1ee03, u+1ee05-1ee1f, u+1ee21-1ee22, u+1ee24, u+1ee27, u+1ee29-1ee32, u+1ee34-1ee37, u+1ee39, u+1ee3b, u+1ee42, u+1ee47, u+1ee49, u+1ee4b, u+1ee4d-1ee4f, u+1ee51-1ee52, u+1ee54, u+1ee57, u+1ee59, u+1ee5b, u+1ee5d, u+1ee5f, u+1ee61-1ee62, u+1ee64, u+1ee67-1ee6a, u+1ee6c-1ee72, u+1ee74-1ee77, u+1ee79-1ee7c, u+1ee7e, u+1ee80-1ee89, u+1ee8b-1ee9b, u+1eea1-1eea3, u+1eea5-1eea9, u+1eeab-1eebb, u+1eef0-1eef1;
-}
-
-/* Add other @font-face rules for different unicode ranges of Rubik here */
-
-@font-face {
-  font-family: __Gluten_1d6f12;
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("/_next/static/media/e052c33915c95630-s.woff2") format("woff2");
-  unicode-range: u+0102-0103, u+0110-0111, u+0128-0129, u+0168-0169, u+01a0-01a1, u+01af-01b0, u+0300-0301, u+0303-0304, u+0308-0309, u+0323, u+0329, u+1ea0-1ef9, u+20ab;
-}
-
-/* Add other @font-face rules for different unicode ranges of Gluten here */
-
 body {
-  @apply font-sans text-gray-900 bg-zinc-100 m-0 p-0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #F1B01A;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
-  @apply text-red-500 font-display mb-2.5;
+    color: #ff6347;
+    margin-bottom: 10px;
 }
 
-img {
-  @apply h-auto max-w-full rounded-lg mb-2.5;
+img{
+    height: 300px;
+    width: 150px;
+    border-radius: 10px;
+    gap: 10px
+    ;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      text-align: center;
+}
+.start img{
+    max-width: 100%;
+      height: auto;
+      margin: 0 auto 20px;
+    }
+
+
+.Proposaltemplate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    width: 80%; 
+    max-width: 800px;
 }
 
-.start {
-  @apply flex flex-col items-center text-center;
+.Proposaltemplate h4{
+    font-size: 1.5em;
+    border: 1px solid #ff6347;
+    border-radius: 10px;
+    padding: 4px 8px;
+    display: inline-block; 
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.start img {
-  @apply max-w-full h-auto mx-auto mb-5;
+.Proposaltemplate a {
+    word-break: break-all; 
 }
 
-.ProposalTemplate, .tipcontainer, .start, .timer, .Quorumguide {
-  @apply bg-zinc-100 p-5 rounded-lg mx-auto w-full max-w-lg shadow-md;
+.tipcontainer ul li {
+    padding-bottom: 10px;
+    font-weight: light;
 }
 
-.tipcontainer ul li, .Quorumguide ul li {
-  @apply pb-2.5 font-light;
+.tipcontainer, .start, .timer, .Quorumguide {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
 }
 
-hr {
-  @apply border-gray-200;
+.tipcontainer hr, .start hr, .timer hr, .Quorumguide hr {
+    border: 1px solid #ccc;
+    margin: 15px 0;
 }
 
-button, a {
-  @apply text-inherit no-underline transition-all duration-100 ease-in-out;
+.Proposaltemplate ul {
+    list-style: none;
+	list-style-type: none;
+    padding: 0;
+    font-size: 1em;
+    text-align: center;
+	
 }
 
-button:hover, a:hover {
-  @apply bg-yellow-200 text-black;
+.Proposaltemplate li {
+    margin-bottom: 10px;
+}
+
+.Proposaltemplate h2, .Proposaltemplate h3, .Proposaltemplate h4 {
+    color: #ff6347;
+}
+
+.Proposaltemplate > h4 {
+    font-size: 1.5em;
+    border: 1px solid #ff6347;
+    border-radius: 10px;
+    padding: 4px 8px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Quorumguide ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Quorumguide li {
+    margin-bottom: 8px;
 }
 
 .timer-images {
-  @apply flex justify-around flex-wrap gap-3;
-}
+    display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
 
-.timer-images img {
-  @apply flex-1 w-1/4;
-}
+    .timer-images img {
+        display: block;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px; 
+      flex: 0 0 23%;
+    }
 
-/* Media Queries */
-@media only screen and (max-width: 768px) {
-  .ProposalTemplate, .tipcontainer, .start, .timer, .Quorumguide {
-    @apply w-full;
-  }
-  
-  .timer-images {
-    @apply justify-center;
-  }
-
-  .timer-images img {
-    @apply w-1/2;
-  }
-}
 
 @media only screen and (max-width: 600px) {
-  body {
-    @apply p-2.5;
-  }
+    body {
+        padding: 10px;
+    }
 
-  .start img {
-    @apply max-w-[80%];
-  }
-  
-  .ProposalTemplate ul {
-    @apply list-none p-2.5 ml-0 text-left;
-  }
+    .tipcontainer, .start, .timer, .Quorumguide {
+        width: 100%;
+        padding: 15px;
+    }
+
 }
-```
+@media only screen and (max-width: 768px) {
+    .timer-images {
+        justify-content: center;
+    }
+
+    .timer-images img {
+        flex: 0 0 45%;
+    }
+    .start img {
+        max-width: 80%;
+    }
+
+    .Proposaltemplate {
+        margin: 15px;
+        width: 100%;
+        max-width: none;
+    }
+    
+    .Proposaltemplate h2,
+    .Proposaltemplate h3,
+    .Proposaltemplate h4 {
+        font-size: 1.5em;
+    margin-bottom: 2%;
+    }
+    .Proposaltemplate ul {
+        list-style: none;
+        padding: 10px;
+        margin-left: 10px;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+    }
+    .Proposaltemplate h4 + ul, 
+    .Proposaltemplate li {
+        font-size: 1em;
+    }
+    .Proposaltemplate a {
+    word-break: break-all; 
+    }
+
+    .Proposaltemplate li {
+        margin-bottom: 8px;
+        font-size: 1em;
+    }
+
+
+
+
+    .Proposaltemplate img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
