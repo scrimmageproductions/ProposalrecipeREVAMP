@@ -1,4 +1,7 @@
-
+:root {
+    --bs-primary: #F1B01A;
+    --bs-primary-rgb: 241, 176, 26;
+}
 body {
     font-family: 'Rubik', sans-serif;
     background-color: yellow !important;
