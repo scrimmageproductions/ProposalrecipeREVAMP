@@ -110,7 +110,7 @@ padding-bottom: 5px;
     }
 
 .textarea {
-    min-height: 400px; 
+    min-height: 600px; 
     width: 70%;
     box-sizing: border-box;
 }
