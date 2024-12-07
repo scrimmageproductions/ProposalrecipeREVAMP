@@ -190,7 +190,7 @@ img{
         height: auto;
         border-radius: 10px;
     }
-	footer ul {
+	.footer footer ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
