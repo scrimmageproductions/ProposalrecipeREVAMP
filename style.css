@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    background: linear-gradient(to bottom, #FFD700, #FFEB3B);
+    background-color: linear-gradient(to bottom, #FFD700, #FFEB3B);
 	color: #000;
     margin: 0;
     padding: 0;
