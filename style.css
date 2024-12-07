@@ -135,6 +135,7 @@ background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
     textarea::placeholder {
         color: #a9a9a9; 
         opacity: 1; 
+	    height: auto; 
     }
 </style>
 
