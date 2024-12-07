@@ -43,13 +43,14 @@ img{
 
 .Proposaltemplate h4{
     font-size: 1.5em;
-    border: 1px solid #ff6347;
+    border: 2px solid #FFF9BF;
     border-radius: 10px;
     padding: 4px 8px;
     display: inline-block; 
     margin: 0;
     text-align: center;
     margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .Proposaltemplate a {
