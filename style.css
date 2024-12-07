@@ -24,7 +24,9 @@ h1, h2, h3, h4, h5 {
       height: auto;
       margin: 0 auto 20px;
     }
-
+li{
+padding-bottom: 5px;
+}
 
 .Proposaltemplate {
     display: flex;
