@@ -62,10 +62,6 @@ img{
     font-weight: light;
 }
 
-.tipcontainer hr, .start hr, .timer hr, .Quorumguide hr {
-    border: 1px solid #ccc;
-    margin: 15px 0;
-}
 
 .Proposaltemplate ul {
     list-style: none;
