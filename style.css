@@ -5,12 +5,11 @@ body {
     color: #000;
     margin: 0;
     padding: 0;
-	
 }
 
 h1, h2, h3, h4, h5 {
     color: #FF6347;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 img{
@@ -37,21 +36,23 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    margin: 30px auto;
     width: 80%; 
     max-width: 800px;
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .Proposaltemplate h4{
     font-size: 1.5em;
-    border: 2px solid #FFF9BF;
+    border: 2px solid #FF6347;
     border-radius: 10px;
     padding: 4px 8px;
     display: inline-block; 
     margin: 0;
     text-align: center;
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 99, 71, 0.1);
 }
 
 .Proposaltemplate a {
