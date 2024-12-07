@@ -118,7 +118,20 @@
     };
 </script>
 			<button id="copyButton" onclick="copyToClipboard()">Copy Proposal</button>
-                </li>
+                <script>
+function copyToClipboard() {
+    var copyText = document.getElementById("proposalTemplate");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value).then(() => {
+        alert("Copied the proposal text to clipboard");
+    }, () => {
+        alert("Failed to copy text");
+    });
+}
+</script>
+```​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+		</li>
                 <li>
                     <strong>Leave "allow anyone to add poll option" deselected</strong>
                 </li>
