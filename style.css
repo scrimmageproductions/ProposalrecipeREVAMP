@@ -16,8 +16,7 @@ img{
     height: 300px;
     width: 150px;
     border-radius: 10px;
-    gap: 10px
-    ;
+    gap: 10px;
 }
 .start{
     display: flex;
