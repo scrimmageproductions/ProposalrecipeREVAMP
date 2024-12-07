@@ -68,7 +68,9 @@ img{
     width: 80%;
     max-width: 800px;
 }
-
+.tipcontainer, .start, .timer, .Quorumguide {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 .tipcontainer hr, .start hr, .timer hr, .Quorumguide hr {
     border: 1px solid #ccc;
     margin: 15px 0;
